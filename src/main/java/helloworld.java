@@ -1,6 +1,5 @@
 public class helloworld {
-    @Override
-    public String toString() {
-        return super.toString();
+    public String aaa(String name) {
+        return name;
     }
 }
