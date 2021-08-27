@@ -13,7 +13,7 @@ public class RangeTest {
     @Test
     public void isStartWithInclusiveWithKampooShouldBeFalse () {
         Range range = new Range("(1,5]");
-        boolean actualResult = range.isStartWithInclusive();
+        boolean actualResult = range.isStartWithInclusive1();
         assertTrue(actualResult);
     }
 }

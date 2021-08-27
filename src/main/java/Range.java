@@ -5,7 +5,11 @@ public class Range {
         this.input = text;
     }
 
-    public boolean isStartWithBracket() {
+    public boolean isStartWithInclusive() {
         return input.startsWith("[");
+    }
+
+    public boolean isStartWithInclusive1() {
+        return input.startsWith("(");
     }
 }
